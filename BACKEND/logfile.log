@@ -1,0 +1,26 @@
+2025-09-09 20:07:49,899 : WARNING : (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\nithi\miniconda3\envs\college\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 21:37:18,509 : WARNING : (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\nithi\miniconda3\envs\college\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-09-09 21:41:08,756 : ERROR : Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 1.
+Traceback (most recent call last):
+  File "C:\Users\nithi\College\SELF\SCRIPTS\app.py", line 417, in generate_hashtags
+    hashtags = response.text.strip()
+               ^^^^^^^^^^^^^
+  File "C:\Users\nithi\miniconda3\envs\college\Lib\site-packages\google\generativeai\types\generation_types.py", line 479, in text
+    raise ValueError(msg)
+ValueError: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 1.
+2025-09-10 11:22:06,721 : WARNING : (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\nithi\miniconda3\envs\college\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
